@@ -1,0 +1,240 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+                  /***** EDUMODU page css start***********/
+
+
+.header-section{
+	width: 100%;
+	background: url("../images/Slider.png")center top no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+}
+.menu .bg-light{
+	background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link{
+  color: #9ca6aa;
+  margin: 0px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+.menu .navbar-light .navbar-nav .active > .nav-link, .navbar-light 
+.navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show > .nav-link {
+    color: #FFC178;
+    border-bottom: 2px solid #FFC178;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+	 color: #FFC178;
+    border-bottom: 2px solid #FFC178;
+}
+.menu .navbar-light .navbar-nav .btn-info{
+	padding: 10px 35px;
+	font-size: 14px;
+	color: #FFC178;
+	background: #fff;
+	border: 0px;
+	border-radius: 30px;
+	transition: 1s ease-in-out;
+}
+.menu .navbar-light .navbar-nav .btn-info:hover,
+.menu .navbar-light .navbar-nav .btn-info:focus{
+	color:#fff ;
+	background:#FFC178;
+	border: 0px;
+}
+
+
+/*banner start*/
+
+
+
+.header-section .banner{
+width: 100%;
+padding: 20px 0px 170px;
+}
+
+.header-section .banner .banner-inner{
+width: 100%;
+padding: 0px 0px 150px;	
+}
+
+.header-section .banner .banner-inner h1{
+font-size: 42px;
+line-height: 52px;
+font-weight: 700;
+color: #FFC178;
+}
+.header-section .banner .banner-inner p{
+font-size: 14px;
+line-height: 28px;
+font-weight: 400;
+color: #9ca6aa;
+}
+.header-section .banner .banner-inner .btn-info{
+    padding: 10px 35px;
+    margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+	background:  #FFC178;
+	border: 0px;
+	border-radius: 30px;
+	transition: 1s ease-in-out;
+}
+.header-section .banner .banner-inner .btn-info:hover,.banner .banner-inner .btn-info:focus{
+    color:#FFC178;
+	background:#fff;
+	border: 0px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+/*feature start*/
+.feature-section{
+	width: 100%;
+}
+.feature-section .tittle{
+	width: 100%;
+	padding: 0px 0px 30px;
+	text-align: center;
+}
+.feature-section .tittle h1{
+font-size: 42px;
+line-height: 52px;
+font-weight: 700;
+color: #FFC178;
+}
+
+.feature-section .tittle p{
+font-size: 14px;
+line-height: 28px;
+font-weight: 400;
+color: #9ca6aa;	
+}
+
+
+.feature-section .feature-inner{
+	width: 100%;
+	padding: 50px 30px;
+	text-align: center;
+}
+.feature-section .bg1{
+background: #F9703A;
+}
+.feature-section .bg2{
+	background: #80BE41;
+}
+.feature-section .bg3{
+	background: #FAAD55;
+}
+
+.feature-section h4{
+	font-size: 28px;
+	font-weight: 700;
+	color: #fff;
+}
+
+/*limitless coding*/
+
+.limitless-section{
+	width: 100%;
+	padding: 80px 0px;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+.inner-image{
+	width: 100%;
+}
+.inner-text{
+	width: 100%;
+}
+.inner-text h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #000;
+	padding-bottom: 15px;
+}
+
+.inner-text  p{
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #9ca6aa;	
+	
+}
+.students{
+width: 100%;
+padding: 20px 0px;
+
+}
+.courses{
+width: 100%;
+padding: 20px 0px;
+
+}
+.hours{
+width: 100%;
+padding: 20px 0px;
+
+}
+
+.students h1{
+	color: #ffba00;
+		margin-bottom: -5px;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.students p{
+	color: #ffba00;
+	font-size: 24px;
+	font-weight: 400;
+		text-transform: uppercase;
+}
+
+.inner-text .courses h1{
+	color: #FF5F72;
+	margin-bottom: -5px;
+	font-size: 50px;
+	font-weight: 700;
+}
+.inner-text .courses p{
+color: #FF5F72;
+	font-size: 24px;
+	font-weight: 400;
+		text-transform: uppercase;	
+}
+.hours h1{
+	color: #43cb83;
+		margin-bottom: -5px;
+	font-size: 50px;
+	font-weight: 700;
+}
+.hours p{
+color: #43cb83;
+	font-size: 24px;
+	font-weight: 400;
+		text-transform: uppercase;
+}
